@@ -1,41 +1,20 @@
 {
   "name": "hss-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
-    "presets": [
-      "env"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harmonsoftwaresolutions/hss-site.git"
-  },
-  "author": "Laurel Herting",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harmonsoftwaresolutions/hss-site/issues"
-  },
-  "homepage": "https://github.com/harmonsoftwaresolutions/hss-site#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "gulp": "^3.9.1",
-    "gulp-changed": "^3.1.0",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
-  },
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://harmonsoftwaresolutions.github.io/hss-site",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "^1.0.11"
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
