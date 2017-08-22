@@ -12,19 +12,31 @@ class App extends Component {
       <Router>
         <div>
           <div className="App">
-            <div className="App-header">
-              <div>
-                <a href="http://wallpapercave.com/w/pBcuEih"><img src="http://wallpapercave.com/wp/pBcuEih.jpg" width="700" height="120" /></a>
-              </div>
-              <h2>Harmon Software Solutions</h2>
+            <h2>Harmon Software Solutions</h2>
+          <div className="App-header">
+            <div>
+              <a href="http://wallpapercave.com/w/pBcuEih"><img src="http://wallpapercave.com/wp/pBcuEih.jpg" width="700" height="120" /></a>
             </div>
+          </div>
         </div>
-
-        <nav>
-          <Link to="/">Home</Link>
-        </nav>
+        <div className="content">
+          <div>
+            <section>
+              <p>This is where the about section goes</p> 
+            </section>
+            <section>
+              <p>This is where skills goes</p>
+            </section>
+            <section>
+              <p>This is where contact information goes</p>
+            </section>
+          </div>
+          <nav>
+            <Link to="/">Home</Link>
+          </nav>
+        </div>
       </div>
-      </Router>
+    </Router>
     );
   }
 }
