@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  Route,
   Link
 } from 'react-router-dom';
 import './App.css';
@@ -15,7 +14,9 @@ class App extends Component {
             <h2>Harmon Software Solutions</h2>
           <div className="App-header">
             <div>
-              <a href="http://wallpapercave.com/w/pBcuEih"><img src="http://wallpapercave.com/wp/pBcuEih.jpg" width="700" height="120" /></a>
+              <a href="http://wallpapercave.com/w/pBcuEih">
+                <img src="http://wallpapercave.com/wp/pBcuEih.jpg" width="700" height="120" alt="cave"/>
+              </a>
             </div>
           </div>
         </div>
