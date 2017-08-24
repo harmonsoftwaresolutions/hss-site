@@ -1,41 +1,14 @@
 {
   "name": "hss-site",
-<<<<<<< HEAD
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
-    "presets": [
-      "env"
-    ]
-  },
+  "version": "0.1.0",
+  "author": "Laurel Herting",
+  "license": "ISC",
+  "private": true,
+  "homepage": "https://github.com/harmonsoftwaresolutions/hss-site#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harmonsoftwaresolutions/hss-site.git"
   },
-  "author": "Laurel Herting",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harmonsoftwaresolutions/hss-site/issues"
-  },
-  "homepage": "https://github.com/harmonsoftwaresolutions/hss-site#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.1.2",
-    "react-scripts": "^1.0.11"
-=======
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -47,6 +20,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
->>>>>>> clear all files and restart with a new create-react-app
   }
 }
