@@ -4,18 +4,22 @@
   "author": "Laurel Herting",
   "license": "ISC",
   "private": true,
-  "homepage": "https://github.com/harmonsoftwaresolutions/hss-site#readme",
+  "homepage": "https://harmonsoftwaresolutions.github.io/hss-site/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harmonsoftwaresolutions/hss-site.git"
   },
   "dependencies": {
+    "eslint": "^4.5.0",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.0",
-    "react-scripts": "1.0.11"
+    "react-scripts": "^1.0.11"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
