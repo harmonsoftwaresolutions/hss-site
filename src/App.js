@@ -12,10 +12,10 @@ class App extends Component {
         <div>
           <div className="App">
             <h2>Harmon Software Solutions</h2>
-          <div className="App-header">
+          <div className="container-fluid">
             <div>
-              <a href="http://wallpapercave.com/w/pBcuEih">
-                <img src="http://wallpapercave.com/wp/pBcuEih.jpg" width="700" height="120" alt="cave"/>
+              <a>
+                
               </a>
             </div>
           </div>
@@ -23,13 +23,14 @@ class App extends Component {
         <div className="content">
           <div>
             <section>
-              <p>This is where the about section goes</p> 
+              <p>Amazon Web Services</p> 
             </section>
             <section>
-              <p>This is where skills goes</p>
+
+              <p>Microservices</p>
             </section>
             <section>
-              <p>This is where contact information goes</p>
+              <p>React / Node</p>
             </section>
           </div>
           <nav>

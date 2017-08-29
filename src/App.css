@@ -1,11 +1,14 @@
 .App {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height:1.42857143;
+  color:#000;
+  background-color:#fcf8ee;
 }
 
 .App-header {
   height: 150px;
   padding: 20px;
-  color: white;
 }
 
 h2 {
@@ -21,7 +24,6 @@ h2 {
 section {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,22 +35,22 @@ section {
 }
 
 section:nth-of-type(1) {
-  background-image: url('http://www.animated-wallpaper.com/Space-Journey-3D/s/3D-Space-Screensaver.jpg')
-
+  background-image: url('http://i.imgur.com/8BoMASq.jpg');
 }
     
 section:nth-of-type(2) {
-  background-image: url('http://images.freehdw.com/800/3d-abstract_hdwallpaper_colors-of-music_31765.jpg')
+  background-image: url('http://i.imgur.com/JSMim7t.jpg');
 }
     
 section:nth-of-type(3) {
-  background-image: url('http://www.heromusicfm.com/images/intro-slide1-1.jpg')
+  background-image: url('http://i.imgur.com/VHcYU9o.jpg');
 }
 
 p {
   margin: 0;
   font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
   padding: 0 5rem;
-  text-shadow: 2px 2px #000000;
-  color: #fff;
+  color:#000000;
   }
