@@ -12,29 +12,28 @@ class App extends Component {
         <div>
           <div className="App">
             <h2>Harmon Software Solutions</h2>
-          <div className="container-fluid">
-            <div>
-              <a>
-                
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="content">
           <div>
             <section>
-              <p>Amazon Web Services</p> 
+            <div className="">
+              <div className="sectiontitle grid-item">Amazon Web Services</div>
+              
+              <div className="sectiondescription grid-item">description</div> 
+            </div>
             </section>
-            <section>
 
-              <p>Microservices</p>
-            </section>
             <section>
-              <p>React / Node</p>
+              <div className="sectiontitle grid-item">Microservices</div>
+              <div className="sectiondescription grid-item">description</div>
             </section>
+
+            <section>
+              <div className="sectiontitle grid-item">React / Node</div>
+              <div className="sectiondescription grid-item">description</div>
+            </section>
+
           </div>
           <nav>
-            <Link to="/">Home</Link>
+            <Link to="/">Contact</Link>
           </nav>
         </div>
       </div>
