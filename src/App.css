@@ -19,12 +19,10 @@ h2 {
 section {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -52,16 +50,25 @@ body {
 .sectiontitle {
   position: relative;
   margin: 0;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 2.2rem;
   font-weight: bold;
-  padding: 0 5rem;
+  padding: 0 1 1 1rem;
   color:#000000;
-  top: -10rem;
+  top: -0.4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, auto));
   background-color: #FD1C15;
+  box-shadow: 3px 3px tan, -1em 0 0.4em tan;
 }
 
 .sectiondescription {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
   position: relative;
+  padding: 620 90;
+  margin: 9 5 10px;
+  box-shadow: 3px 3px red, -1em 0 0.4em tan;
+  background-color: #e8d9c5;
 }
