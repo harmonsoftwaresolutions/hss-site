@@ -13,8 +13,9 @@ const App = () => (
               <div className="sectiontitle grid-item">Who We Are</div>
               <div className="sectiondescription grid-item">
                 <p>
-                  A group of professionals joining together to advance our
-                  software engineering careers
+                  A group of software engineers joining together to advance our
+                  careers through collaborative learning. Our combined skillsets
+                  range from full stack, dev ops, hardware, to consulting
                 </p>
               </div>
             </div>
