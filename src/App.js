@@ -10,20 +10,38 @@ const App = () => (
         <div>
           <section>
             <div className="">
-              <div className="sectiontitle grid-item">Amazon Web Services</div>
-
-              <div className="sectiondescription grid-item">description</div>
+              <div className="sectiontitle grid-item">Who We Are</div>
+              <div className="sectiondescription grid-item">
+                <p>
+                  A group of professionals joining together to advance our
+                  software engineering careers
+                </p>
+              </div>
             </div>
           </section>
 
           <section>
-            <div className="sectiontitle grid-item">Microservices</div>
-            <div className="sectiondescription grid-item">description</div>
+            <div className="sectiontitle grid-item">What We Do</div>
+            <div className="sectiondescription grid-item">
+              <ol>
+                <li>Daily standups on Slack</li>
+                <li>Mentoring</li>
+                <li>Paired Collaborative Coding</li>
+                <li>Encourage and Empower</li>
+              </ol>
+            </div>
           </section>
 
           <section>
-            <div className="sectiontitle grid-item">React / Node</div>
-            <div className="sectiondescription grid-item">description</div>
+            <div className="sectiontitle grid-item">Our Interests</div>
+            <div className="sectiondescription grid-item">
+              <ol>
+                <li>Amazon Web Services / Cloud Architecting</li>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Microservices & Distributed Systems Architecture</li>
+                <li>Embedded Software</li>
+              </ol>
+            </div>
           </section>
         </div>
         <nav>
