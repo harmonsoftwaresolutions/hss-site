@@ -2,12 +2,12 @@
   text-align: center;
   font-family: 'Raleway', sans-serif;
   line-height: 1.42857143;
-  color:#000;
+  color:#ffffff;
   background-color:#fcf8ee;
 }
 
 h2 {
-  color: #000000(34,34,34);
+  color: #ffffff(34,34,34);
   font-weight: 900;
   margin: 0 0 24px 0;
   display: flex;
@@ -51,24 +51,21 @@ body {
   position: relative;
   margin: 0;
   text-align: center;
-  font-size: 2.2rem;
+  /* text-size-adjust: 100%; */
+  font-size: 4rem;
   font-weight: bold;
-  padding: 0 1 1 1rem;
-  color:#000000;
+  padding: ;
+  color:#ffffff;
   top: -0.4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-  background-color: #FD1C15;
   box-shadow: 3px 3px tan, -1em 0 0.4em tan;
 }
 
 .sectiondescription {
   font-size: 1.8rem;
   font-weight: bold;
-  text-align: left;
+  text-align: auto;
   position: relative;
-  padding: 620 90;
+  padding: 10% 21%;
   margin: 9 5 10px;
-  box-shadow: 3px 3px red, -1em 0 0.4em tan;
-  background-color: #e8d9c5;
 }
