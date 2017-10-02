@@ -7,13 +7,14 @@
 }
 
 h2 {
-  color: #ffffff(34,34,34);
+  color: #ffffff;
   font-weight: 900;
   margin: 0 0 24px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   text: 1d3acc;
+  background-color: tan;
 }
 
 section {
