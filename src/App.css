@@ -1,9 +1,34 @@
+body {
+  margin: 0; 
+  font-family: 'Raleway', sans-serif;
+}
+
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   line-height: 1.42857143;
   color:#ffffff;
   background-color:#fcf8ee;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #E5E5E5;
+  font-size: 1em;
+  font-weight: normal;
+  font-weight: 100;
+  position: fixed;
+}
+
+.footer-item {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px 0 5px 0;
+  position: fixed;
 }
 
 h2 {
@@ -42,10 +67,13 @@ section:nth-of-type(2) {
 section:nth-of-type(3) {
   background-image: url('http://i.imgur.com/VHcYU9o.jpg');
 }
-
-body {
-  margin: 0; 
-  font-family: 'Raleway', sans-serif;
+.sectiondescription {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: auto;
+  position: relative;
+  padding: 10% 21%;
+  margin: 9 5 10px;
 }
 
 .sectiontitle {
@@ -60,13 +88,4 @@ body {
   top: -0.4rem;
   display: grid;
   box-shadow: 3px 3px tan, -1em 0 0.4em tan;
-}
-
-.sectiondescription {
-  font-size: 1.8rem;
-  font-weight: bold;
-  text-align: auto;
-  position: relative;
-  padding: 10% 21%;
-  margin: 9 5 10px;
 }
