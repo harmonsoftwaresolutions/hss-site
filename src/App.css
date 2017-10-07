@@ -1,19 +1,46 @@
-body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-}
-
-i.fa {
-  font-size: 5em;
-  padding: 15px 15px 15px 15px;
-}
-
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   line-height: 1.42857143;
-  color:#ffffff;
-  background-color:#fcf8ee;
+  background-color: #fcf8ee;
+}
+
+.list-text {
+  font-size: 3em;
+  color: black;
+}
+
+.list-text2 {
+  font-size: 2.5em;
+  color: white;
+}
+
+.section1-text {
+  color: white;
+}
+
+.section2-text {
+  color: black;
+}
+
+.sectiondescription {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: auto;
+  position: relative;
+  padding: 2% 2%;
+  margin: 9 5 10px;
+}
+
+.sectiontitle {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: bold;
+  top: -0.4rem;
+  display: grid;
+  /* box-shadow: 3px 3px tan, -1em 0 0.4em tan; */
 }
 
 .footer-container {
@@ -34,61 +61,3 @@ i.fa {
   padding: 5px 0 5px 0;
 }
 
-h2 {
-  color: #ffffff;
-  font-weight: 900;
-  margin: 0 0 24px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text: 1d3acc;
-  background-color: tan;
-}
-
-section {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-}
-
-section:nth-of-type(1) {
-  background-image: url('http://i.imgur.com/8BoMASq.jpg');
-}
-
-section:nth-of-type(2) {
-  background-image: url('http://i.imgur.com/JSMim7t.jpg');
-}
-
-section:nth-of-type(3) {
-  background-image: url('http://i.imgur.com/VHcYU9o.jpg');
-}
-.sectiondescription {
-  font-size: 1.8rem;
-  font-weight: bold;
-  text-align: auto;
-  position: relative;
-  padding: 10% 21%;
-  margin: 9 5 10px;
-}
-
-.sectiontitle {
-  position: relative;
-  margin: 0;
-  text-align: center;
-  /* text-size-adjust: 100%; */
-  font-size: 4rem;
-  font-weight: bold;
-  padding: ;
-  color:#ffffff;
-  top: -0.4rem;
-  display: grid;
-  box-shadow: 3px 3px tan, -1em 0 0.4em tan;
-}
