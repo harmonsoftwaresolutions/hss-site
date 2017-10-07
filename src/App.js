@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-// import Footer from './footer';
+import Footer from './Footer';
 
 const App = () => (
   <Router>
@@ -48,7 +48,7 @@ const App = () => (
         </div>
       </div>
 
-      <footer />
+      <Footer />
     </div>
   </Router>
 );

@@ -3,13 +3,11 @@ import React from 'react';
 const Footer = () => (
   <div className="footer-container">
     <div className="footer-item">
-      <a href="https://harmonsoftwaresolutions.github.io/hss-site">
+      <a href="https://github.com/harmonsoftwaresolutions">
         <i className="fa fa-github" aria-hidden="true" />
+        Github logo goes here
       </a>
     </div>
-    <span className="footer-item">
-      <a href="">Contact</a>
-    </span>
   </div>
 );
 
