@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import Footer from './Footer';
 
 const App = () => (
   <Router>
@@ -10,45 +11,54 @@ const App = () => (
         <div>
           <section>
             <div className="">
-              <div className="sectiontitle grid-item">Who We Are</div>
+              <div className="sectiontitle grid-item section1-text">
+                Who We Are
+              </div>
               <div className="sectiondescription grid-item">
-                <p>
-                  A group of software engineers joining together to advance our
-                  careers through collaborative learning. Our combined skillsets
-                  range from full stack, dev ops, hardware, to consulting
-                </p>
+                <ul>
+                  <li className="list-text2">
+                    A group of software engineers joining together to advance
+                    our careers through collaborative learning. Our combined
+                    skillsets range from full stack, dev ops, hardware, to
+                    consulting
+                  </li>
+                </ul>
               </div>
             </div>
           </section>
 
           <section>
-            <div className="sectiontitle grid-item">What We Do</div>
+            <div className="sectiontitle grid-item section2-text">
+              What We Do
+            </div>
             <div className="sectiondescription grid-item">
               <ol>
-                <li>Daily standups on Slack</li>
-                <li>Mentoring</li>
-                <li>Paired Collaborative Coding</li>
-                <li>Encourage and Empower</li>
+                <li className="list-text">Daily standups on Slack</li>
+                <li className="list-text">Mentoring</li>
+                <li className="list-text">Paired Collaborative Coding</li>
+                <li className="list-text">Encourage and Empower</li>
               </ol>
             </div>
           </section>
 
           <section>
-            <div className="sectiontitle grid-item">Our Interests</div>
+            <div className="sectiontitle grid-item section1-text">
+              Our Interests
+            </div>
             <div className="sectiondescription grid-item">
               <ol>
-                <li>Amazon Web Services / Cloud Architecting</li>
-                <li>Artificial Intelligence & Machine Learning</li>
-                <li>Microservices & Distributed Systems Architecture</li>
-                <li>Embedded Software</li>
+                <li className="list-text2">Amazon Web Services</li>
+                <li className="list-text2">Machine Learning</li>
+                <li className="list-text2">NodeJS & Go Microservices</li>
+                <li className="list-text2">Distributed Systems Architecture</li>
+                <li className="list-text2">Embedded Software</li>
               </ol>
             </div>
           </section>
         </div>
-        <nav>
-          <Link to="/">Contact</Link>
-        </nav>
       </div>
+
+      <Footer />
     </div>
   </Router>
 );
