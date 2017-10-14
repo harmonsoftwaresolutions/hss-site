@@ -2,6 +2,7 @@
   "name": "hss-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harmonsoftwaresolutions.github.io/hss-site",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^15.6.2",
@@ -15,7 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^4.7.2",
@@ -25,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
+    "gh-pages": "^1.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.2.3",
     "prettier": "^1.7.0"
