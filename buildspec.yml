@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - apt-get update
+      - npm install --global yarn
   pre_build:
     commands:
       - yarn install
