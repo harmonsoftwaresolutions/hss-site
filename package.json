@@ -2,7 +2,7 @@
   "name": "hss-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harmonsoftwaresolutions.github.io/hss-site",
+  "homepage": "https://www.harmonsoftwaresolutions.com",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^15.6.2",
